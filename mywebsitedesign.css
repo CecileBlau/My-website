@@ -1,0 +1,182 @@
+.container{
+	display:flex;
+	flex-direction: column;
+
+}
+
+ul{
+	list-style: none
+}
+nav{
+	border: 1px solid black;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	padding: 5px;
+	background-color: rgba(32, 56, 148, 0.8);
+	align-items: center;
+	color: white;
+
+	
+}
+
+.navcenter{
+	display: flex;
+	flex-direction:row;
+	width: 50%;
+	gap: 80px;
+	justify-content: flex-start;
+	font-size: 20px;
+	font-family: verdana;
+}
+.resume:hover{
+	color:black;
+}
+.project:hover{
+	color:black;
+}
+
+.contact:hover{
+	color:black;
+}
+.navleft{
+	width: 25%;
+	padding-left: 5px;
+	cursor: pointer;
+}
+
+
+
+.name{
+	font-family: verdana;
+	font-size: 28px;
+}
+
+.navright{
+	display: flex;
+	flex-direction: row;
+	width: 15%;
+	justify-content: flex-end;
+	align-items: center;	
+}
+
+
+
+.globe{
+	padding-right: 3px;
+}
+
+.arrow{
+	display: flex;
+	align-self: flex-end;
+	
+}
+li{
+	cursor: pointer;
+}
+
+
+.inner-box1{
+	position: relative;,
+	width: 100vw;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	height: 550px;
+	flex-direction: row;
+}
+video{
+	display: flex;
+	flex:auto;
+	filter: opacity(40%);
+	background: cover;
+	width: 100vw;
+	height:100%;
+
+}
+
+
+
+.box1dividedright{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-self:center;
+
+}
+.box1dividedright h2{
+	display: flex;
+	text-align: center;
+	font-size: 8rem;
+	z-index: 1;
+	font-family: Cookie;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+
+
+
+.box1dividedright h3{
+	display: flex;
+	text-align: center;
+	font-size: 5rem;
+	z-index:1;
+	font-family: Cookie;
+	margin-top: 10px;
+	cursor: pointer;
+
+
+	
+}
+
+.video-container{
+	position: absolute;
+}
+
+
+
+.inner-box2{
+	display: flex;
+	height: 500px;
+	border: 1px solid black;
+	font-size: 30px;
+}
+.inner-box2 .photo{
+	border: 1px solid black;
+	width: 50%;
+}
+.inner-box2 .infoaboutme{
+	border: 1px solid black;
+	width: 50%;
+}
+
+.inner-box3{
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	height: 500px;
+	font-size: 30px;
+}
+.box3up{
+	display: flex;
+	border:1px solid black;
+	height: 20%;
+}
+.box3down{
+	display: flex;
+	flex-direction: row;
+	height: 80%;
+	justify-content: space-around;
+}
+.box3down div{
+	border: 1px solid black;
+}
+.inner-box4{
+	border: 1px solid black;
+	height: 500px;
+	font-size: 30px;
+}
